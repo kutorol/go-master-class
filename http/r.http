@@ -1,0 +1,19 @@
+POST {{uri}}/accounts
+Content-Type: application/json
+
+{
+  "owner": "MyNae",
+  "currency": "USD"
+}
+
+###
+GET {{uri}}/accounts/3
+
+{
+}
+
+###
+GET {{uri}}/accounts?page=1&page_size=7
+
+{
+}
